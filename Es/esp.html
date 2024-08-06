@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,700;1,700&family=Work+Sans:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/Assets/css/stylesheet.css" />
+    <script src="./Assets/js/main.js" type="module" defer></script>
+  </head>
+  <body class="dark">
+    <!-- Loader -->
+    <div class="loader">
+      <div class="loader__container">
+        <span></span>
+      </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="/" class="nav__logo">
+          <img
+            class="logo--icon"
+            src="./Assets/Images/12_abstrc.jpg"
+            alt="Image by soepratman on Freepik"
+          />
+        </a>
+
+        <div class="nav__menu">
+          <button type="button" class="nav__btn btn--close">
+            <i class="bx bx-window-close"></i>
+          </button>
+
+          <ul class="nav__list">
+            <li class="nav__items">
+              <a
+                href="#"
+                class="nav__link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav__items">
+              <a
+                href="#"
+                class="nav__link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Productos</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__buttons">
+          <button type="button" class="nav__btn btn--cart">
+            <i class="bx bxs-shopping-bag"></i>
+            <span class="notify">0</span>
+          </button>
+          <button type="button" class="nav__btn btn--menu">
+            <i class="bx bxs-grid-alt"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="main">
+      <section class="products section">
+        <h2 class="products__title section--title">Products</h2>
+        <div class="products__container container"></div>
+      </section>
+    </main>
+
+    <!-- Cart -->
+    <div class="cart">
+      <div class="cart__container">
+        <div class="cart__header">
+          <h3 class="cart__title">Cart</h3>
+          <button type="button" class="cart__btn btn--close">
+            <i class="bx bx-x"></i>
+          </button>
+        </div>
+        <div class="cart__body">
+
+        </div>
+        <div class="cart__footer">
+          <div class="cart__count">
+            <span class="cart__count--text">Articles:</span>
+            <span class="cart__count--item">0</span>
+          </div>
+          <div class="cart__total">
+            <span class="cart__total--text">Total:</span>
+            <span class="cart__total--item">$0</span>
+          </div>
+          <button type="button" class="cart__btn btn--buy">Buy</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer section">
+      <div class="footer__container container">
+        <div class="footer__top">
+          <div class="footer__left">
+            <h3 class="footer__title">About us</h3>
+            <p class="footer__text">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione,
+              fugiat accusantium quasi consequatur ad tempora expedita
+              temporibus doloremque culpa exercitationem aliquid mollitia dicta,
+              voluptate aliquam placeat itaque incidunt. Cupiditate, cumque.
+              Nobis reprehenderit, natus earum odio unde ut praesentium
+              aspernatur temporibus magni accusantium blanditiis itaque labore
+              cum enim facilis aliquid nostrum facere vero assumenda.
+              Praesentium et ipsam sit nulla laboriosam ad? Obcaecati quas
+              impedit saepe, similique, cum ut veritatis molestiae consectetur
+              blanditiis expedita unde sunt rerum minima ducimus suscipit fuga
+              officiis. Doloremque cumque incidunt veniam libero? Enim sit nemo
+              impedit placeat?
+            </p>
+          </div>
+          <div class="footer__right">
+            <h3 class="footer__title">Social media</h3>
+            <ul class="footer__social">
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <i class="bx bxl-instagram"></i>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <i class="bx bxl-twitter"></i>
+                </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">
+                  <i class="bx bxl-linkedin"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__text">UriDev portfolio 2024</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
